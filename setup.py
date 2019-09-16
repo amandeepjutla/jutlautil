@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="jutlautil",
-    version="0.0.1",
+    version="0.0.2",
     author="Amandeep Jutla",
     author_email="ajutla@amandeepjutla.com",
     description="Package for personal utilities",

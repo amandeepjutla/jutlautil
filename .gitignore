@@ -7,3 +7,5 @@ jutlautil.egg-info/PKG-INFO
 jutlautil.egg-info/dependency_links.txt
 build/lib/jutlautil/jutlautil.py
 build/lib/jutlautil/__init__.py
+*.pyc
+build/lib/jutlautil/anchor.py
