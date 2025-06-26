@@ -1,0 +1,24 @@
+package:
+  name: jutlautil
+  version: "0.0.4"
+
+source:
+  url: https://files.pythonhosted.org/packages/17/47/ed028193eb29029f157a24b008f506971ac6008920c9dd850bbf37e0bd4f/jutlautil-0.0.4.tar.gz
+
+build:
+  noarch: python
+  script: python -m pip install . --no-deps --ignore-installed -vv
+
+requirements:
+  host:
+    - python >=3.7
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python >=3.7
+
+about:
+  home: https://github.com/amandeepjutla/jutlautil
+  license: MIT
+  summary: "Package for simple utilities that I find myself using in multiple projects."

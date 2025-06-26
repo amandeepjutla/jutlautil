@@ -1,11 +1,5 @@
-
+dist
+jutlautil.egg-info
 *.whl
 *.gz
-jutlautil.egg-info/top_level.txt
-jutlautil.egg-info/SOURCES.txt
-jutlautil.egg-info/PKG-INFO
-jutlautil.egg-info/dependency_links.txt
-build/lib/jutlautil/jutlautil.py
-build/lib/jutlautil/__init__.py
 *.pyc
-build/lib/jutlautil/anchor.py
