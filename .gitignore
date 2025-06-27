@@ -5,3 +5,4 @@ jutlautil.egg-info
 *.pyc
 .DS_Store
 **/.DS_Store
+build_notes.md

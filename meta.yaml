@@ -1,9 +1,9 @@
 package:
   name: jutlautil
-  version: "0.0.4"
+  version: "0.0.5"
 
 source:
-  url: https://files.pythonhosted.org/packages/17/47/ed028193eb29029f157a24b008f506971ac6008920c9dd850bbf37e0bd4f/jutlautil-0.0.4.tar.gz
+  url: https://files.pythonhosted.org/packages/82/3f/459c26adfc3a4b9503a147f883f256ae7eb40f61099929ca4e7a21318a0d/jutlautil-0.0.5.tar.gz
 
 build:
   noarch: python
