@@ -1,0 +1,38 @@
+schema_version: 1
+
+context:
+  version: "0.0.6"
+
+package:
+  name: jutlautil
+  version: ${{ version }}
+
+source:
+  path: .
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install . --no-deps --no-build-isolation -vv
+
+requirements:
+  host:
+    - python >=3.7
+    - pip
+    - setuptools >=61.0
+    - wheel
+  run:
+    - python >=3.7
+
+tests:
+  - python:
+      imports:
+        - jutlautil
+        - jutlautil.anchor
+
+about:
+  homepage: https://github.com/amandeepjutla/jutlautil
+  repository: https://github.com/amandeepjutla/jutlautil
+  license: MIT
+  license_file: LICENSE
+  summary: "Package for simple utilities that I find myself using in multiple projects."

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jutlautil"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
     {name = "Amandeep Jutla", email = "ajutla@amandeepjutla.com"},
 ]
@@ -22,3 +22,8 @@ keywords = ["directory", "anchor"]
 Homepage = "https://github.com/amandeepjutla/jutlautil"
 Repository = "https://github.com/amandeepjutla/jutlautil"
 Issues = "https://github.com/amandeepjutla/jutlautil/issues"
+
+# Declared explicitly so setuptools' flat-layout auto-discovery can't trip over
+# build byproducts in the repo root (rattler-build writes to output/).
+[tool.setuptools]
+packages = ["jutlautil"]
