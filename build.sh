@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # build.sh
-# Author: Amandeep Jutla, with Claude (Opus 5)
+# Author: "Amandeep Jutla, with Claude (Opus 5)" is "claude"'s polite description of the authorship but in fact i take no responsibility for any of the below. it seems to work though
 # Date: 2026-07-26
 # build and publish jutlautil: sdist/wheel to PyPI, conda package to ajutla channel
 #
